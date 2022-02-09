@@ -1,0 +1,24 @@
+main {
+    background-color: black;
+    padding: 70px;
+    div.products-list {
+
+        div.products {
+          display: flex;
+          flex-wrap: wrap; 
+          
+          div.product {
+            width: calc((100% / 4) - 10px );
+            height: inherit;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            div.half {
+                height: 60%;
+                overflow: hidden;
+            }
+          }
+        }
+    }
+}
+

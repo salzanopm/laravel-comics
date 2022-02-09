@@ -66,6 +66,43 @@ header .menu li.current {
      object-position: top;
 }
 
+main {
+  background-color: black;
+  padding: 70px;
+}
+
+main div.products-list div.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main div.products-list div.products div.product {
+  width: calc(25% - 10px);
+  height: inherit;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+main div.products-list div.products div.product div.half {
+  height: 60%;
+  overflow: hidden;
+}
+
+.footertop-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: lightgray;
+}
+
+.footertop-wrap {
+  background-image: url("/images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
