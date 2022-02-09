@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-wrapper {
+    background-color: #303030;
+}
+
+button {
+    color: white;
+    background-color: #303030;
+    border: solid 1px $primary_color;
+    padding: 10px;
+}
+
+.social-container {
+    color: $primary_color;
+    text-transform: uppercase;
+}
+
