@@ -26,28 +26,23 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 header .logo {
   width: 60px;
   margin: 5px;
 }
-
 header .menu {
   display: flex;
   justify-content: center;
 }
-
 header .menu li {
   padding: 10px;
 }
-
 header .menu li a {
   text-decoration: none;
   color: inherit;
   font-size: 22px;
   font-weight: bold;
 }
-
 header .menu li.current {
   color: #0282f9;
 }
@@ -56,7 +51,6 @@ header .menu li.current {
   line-height: 150px;
   height: 350px;
 }
-
 .jumbotron-container .jumbotron-img {
   height: inherit;
   width: 100%;
@@ -70,12 +64,10 @@ main {
   background-color: black;
   padding: 70px;
 }
-
 main div.products-list div.products {
   display: flex;
   flex-wrap: wrap;
 }
-
 main div.products-list div.products div.product {
   width: calc(25% - 10px);
   height: inherit;
@@ -83,7 +75,6 @@ main div.products-list div.products div.product {
   text-align: center;
   margin: 5px;
 }
-
 main div.products-list div.products div.product div.half {
   height: 60%;
   overflow: hidden;
@@ -125,4 +116,3 @@ button {
   color: #0282f9;
   text-transform: uppercase;
 }
-
